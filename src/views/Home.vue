@@ -35,7 +35,7 @@ export default {
 .header {
   display: flex;
   justify-content: center;
-  font-size: 60px;
+  font-size: 2em;
 }
 
 .terminal {
