@@ -1,8 +1,10 @@
 <template>
   <div class="home">
     <div class="header">
-      <h1>pubversion</h1>
+      <h1 class="main-text">pubversion</h1>
+      <h6 class="body-text">A Dart command-line tool for easily incrementing package version numbers</h6>
     </div>
+    
     <div class="terminal">
       <div id="termynal" data-termynal data-ty-type-delay="40" data-ty-line-delay="700">
         <span data-ty="input">pub global activate pubversion</span>
@@ -35,7 +37,21 @@ export default {
 .header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
   font-size: 2em;
+  color: black;
+  margin: 0;
+}
+
+.main-text {
+  margin: 40px;
+}
+
+.body-text {
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .terminal {
