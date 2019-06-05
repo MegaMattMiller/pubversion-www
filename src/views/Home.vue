@@ -12,6 +12,7 @@
         <span data-ty>Activated pubversion 1.0.0</span>
         <span data-ty="input">pubversion major</span>
         <span data-ty>example_lib upgraded from 1.0.2 to 2.0.0</span>
+        <span data-ty><a href="https://pub.dev/packages/pubversion">pub.dev</a> | <a href="https://github.com/MegaMattMiller/pubversion">GitHub</a></span>
       </div>
     </div>
   </div>
@@ -57,6 +58,10 @@ export default {
 .terminal {
   display: flex;
   justify-content: center;
+}
+
+a {
+  color: white;
 }
 </style>
 
